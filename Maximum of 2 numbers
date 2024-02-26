@@ -1,0 +1,14 @@
+#Using max function
+
+a= int(input("Enter first input"))
+b=int(input("Enter second input"))
+
+maximum= max(a,b)
+
+print("Maximum of 2 numbers is", maximum)
+
+#Using lambda function
+
+greater_than= lambda x,y: print(x,"is greater than", y) if x>y  else print(y, "is greater than", x)
+
+greater_than(7,8)
