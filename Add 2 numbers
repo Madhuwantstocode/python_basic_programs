@@ -1,0 +1,12 @@
+a= int(input("Enter the first input"))
+b= int(input("Enter the second input"))
+
+c=a+b
+print("The addition of 2 numbers is ",c)
+
+
+Using lambda function :
+addnum = lambda x,y: x+y
+
+add_sum= addnum(3,4)
+print("Addition of 2 numbers", add_sum)
