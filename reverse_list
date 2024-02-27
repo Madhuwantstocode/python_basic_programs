@@ -1,0 +1,9 @@
+#to reverse a list
+#approach1
+list6=[6,7,8,4,5]
+list6.reverse()
+print(list6)
+
+#approach2
+list1=[7,9,5,8]
+print(list1[::-1])
