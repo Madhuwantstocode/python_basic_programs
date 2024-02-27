@@ -1,0 +1,18 @@
+#to clone or copy elements from a list
+list1=[8,7,6,5,4]
+#approach1
+list1_copy=list1[:]
+
+print(list1_copy)
+#approach2
+list2_copy=list1.copy()
+print(list2_copy)
+
+list3_copy=[]
+#approach3
+list3_copy.extend(list1)
+print(list3_copy)
+
+#approach4
+list4_copy= [i for i in list1]
+print(list4_copy)
