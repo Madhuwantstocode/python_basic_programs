@@ -1,0 +1,12 @@
+#to find an element in a list
+
+list2=[8,65,4,5,7]
+num=int(input("Enter the number you want to search"))
+flag=0
+for i in list2:
+    if(i==num):
+        flag=1
+        print("found")
+        break
+if(flag==0):
+    print("not found")
