@@ -1,0 +1,17 @@
+#Amstrong number
+
+num =int(input("Enter your input"))
+original=num
+sum1=0
+n=len(str(num))
+print(n)
+
+while(num>0):
+    digit=num%10
+    sum1+=digit ** n
+    num=num//10
+    
+if(sum1==original):
+    print("Yes Amstrong number")
+else:
+    print("Not an amstrong number")
